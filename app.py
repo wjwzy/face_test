@@ -25,7 +25,7 @@ import face_recognition as fr
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'model/beauty_test_model.h5'
+MODEL_PATH = 'model/face_test_model.h5'
 
 model=load_model(MODEL_PATH)
 model.summary()

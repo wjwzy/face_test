@@ -75,7 +75,7 @@ def main():
     # 迭代打印损失和评估值
     history = model.fit(train_x, train_y, batch_size=train_batch_size, epochs=epochs, shuffle=False, validation_data=(val_x, val_y))
     model.evaluate(val_x, val_y)
-    model.save("/model/beauty_test_model.h5")
+    model.save("/model/face_test_model.h5")
 
 
 if __name__ == '__main__':
